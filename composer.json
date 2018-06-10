@@ -1,0 +1,40 @@
+{
+    "name": "livelyworks/angulara",
+    "description": "Angulara Workflow and Framework based on Laravel & AngularJS",
+    "keywords": ["laravel", "angularjs"],
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Vinod Raut",
+          "email": "contact@livelyworks.net"
+        },
+        {
+            "name": "Ravindra Lande"
+        },
+        {
+            "name": "Nikhil Bangre"
+        },
+        {
+            "name": "Ajay Pimpalkar"
+        }
+    ],
+    "support": {
+        "email": "contact@livelyworks.net",
+        "docs": "https://livelyworks.github.io/angulara/",
+        "source": "https://github.com/livelyworks/angulara"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x|5.6.x",
+        "livelyworks/laraware": ">=1.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LivelyWorks\\Angulara\\": "src/"
+        }
+    },
+   "extra": {
+    },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
